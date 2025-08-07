@@ -8,6 +8,7 @@ import IndustryKnowledge from "@/components/IndustryKnowledge";
 import Referees from "@/components/Referees";
 import ProPosts from "@/components/ProPosts";
 import SkillsDevelopment from "@/components/SkillsDevelopment";
+import DescriptionRotator from "@/components/DescriptionRotator";
 
 
 export default function Home() {
@@ -20,13 +21,13 @@ export default function Home() {
                     <Section className="flex items-start md:items-center justify-between p-8 pb-0">
                         <div className="flex-1 space-y-1.5 pr-4">
                             <h1 className="text-2xl font-bold">Ali Lishan</h1>
-                            <p className="font-bold text-dark">MSc IT Management, BSc (Hons) Software Engineering.</p>
-                            <p className="max-w-md">
-                                Over 20 years in the software development industry, specializing in web and mobile application development. Strong background in software project management, web application development, and IT infrastructure management.
-                            </p>
-                            <p className="max-w-md">
+                            <p className="text-dark">MSc IT Management, BSc (Hons) Software Engineering.</p>
+
+                           <DescriptionRotator texts={professionalDescriptors} />
+
+                            {/* <p className="max-w-md">
                                 <a href="https://www.google.com/maps/search/Petaling%20Jaya%2C%20Malaysia">Petaling Jaya, Malaysia</a>
-                            </p>
+                            </p> */}
                         </div>
                         <div className="relative flex shrink-0 overflow-hidden rounded-full size-20 md:size-28">
                             <img className="aspect-square h-full w-full" src="https://avatar.iran.liara.run/public/42" alt="Ali Lishan" />
@@ -102,3 +103,17 @@ export default function Home() {
         </Container>
     );
 }
+
+
+const professionalDescriptors: string[] = [
+    "Chief Software Architect",
+    "Senior Full-Stack Developer",
+    "Technology Leadership Expert",
+    "Cloud-Native Application Developer",
+    "Veteran Software Engineer",
+    "AI-Integrated Full-Stack Developer",
+    "Engineering Team Leader",
+    "Enterprise Software Architect",
+    "International Technology Consultant",
+    "Modern JavaScript Specialist"
+]
