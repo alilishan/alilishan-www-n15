@@ -1,6 +1,6 @@
 
 import { getResumeDataByKey } from "@/data/actions";
-import { GraduationCap, Medal } from "lucide-react";
+import { Medal } from "lucide-react";
 
 interface ProDevelopment {
     course: string;

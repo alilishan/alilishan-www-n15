@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "@/components/Container";
 import Section from "@/components/section/Section";
 import Experience from "@/components/Experience";
@@ -30,7 +31,13 @@ export default function Home() {
                             </p> */}
                         </div>
                         <div className="relative flex shrink-0 overflow-hidden rounded-full size-20 md:size-32 border-[0.5px] p-1">
-                            <img className="aspect-square h-full w-full rounded-full" src="/my-avatar.jpg" alt="Ali Lishan" />
+                            <Image
+                                alt="Ali Lishan"
+                                src="/my-avatar.jpg"
+                                width={128}
+                                height={128}
+                                className="aspect-square h-full w-full rounded-full"
+                            />
                         </div>
                     </Section>
 

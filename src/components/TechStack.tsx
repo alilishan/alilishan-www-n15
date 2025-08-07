@@ -6,7 +6,6 @@ import {
 } from "@/components/ui/accordion";
 import Badge from "./Badge";
 import { getResumeDataByKey } from "@/data/actions";
-import { BriefcaseBusiness } from "lucide-react";
 
 interface Skills {
     toolsAndTechnologies: {
