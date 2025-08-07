@@ -24,13 +24,10 @@ export default function RootLayout({
             >
                 {children}
 
-                <footer className="p-8">
+                <footer className="p-8 lining-tilt-background">
                     <p className="text-muted text-xs">
-                        <span className="font-bold">Ali Lishan</span>
-                        <br />
-                        <span className="font-bold">MSc IT Management, BSc (Hons) Software Engineering.</span>
-                        <br />
-                        <span className="font-bold">62, Jalan PJU 7/30, Mutiara Damansara, Petaling Jaya, 47800 Selangor. Malaysia.</span>
+                        <span className="block">Some of the styles are inspired by tailwindcss.com</span>
+                        <span className="font-bold">Built by Ali Lishan &bull; Copyright &copy; {new Date().getFullYear()}</span>
                     </p>
                 </footer>
             </body>

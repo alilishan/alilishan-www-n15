@@ -29,8 +29,8 @@ export default function Home() {
                                 <a href="https://www.google.com/maps/search/Petaling%20Jaya%2C%20Malaysia">Petaling Jaya, Malaysia</a>
                             </p> */}
                         </div>
-                        <div className="relative flex shrink-0 overflow-hidden rounded-full size-20 md:size-28">
-                            <img className="aspect-square h-full w-full" src="https://avatar.iran.liara.run/public/42" alt="Ali Lishan" />
+                        <div className="relative flex shrink-0 overflow-hidden rounded-full size-20 md:size-32 border-[0.5px] p-1">
+                            <img className="aspect-square h-full w-full rounded-full" src="/my-avatar.jpg" alt="Ali Lishan" />
                         </div>
                     </Section>
 
@@ -44,15 +44,15 @@ export default function Home() {
                         </div>
                     </Section>
 
-                    <Section heading="Experience" headingClassName="px-8">
+                    <Section heading="Experience" headingClassName="px-8 lining-tilt-background border-t-[0.5px]">
                         <Experience />
                     </Section>
 
-                    <Section heading="Education" headingClassName="px-8">
+                    <Section heading="Education" headingClassName="px-8 lining-tilt-background">
                         <Education />
                     </Section>
 
-                    <Section heading="Professional Development" headingClassName="px-8">
+                    <Section heading="Professional Development" headingClassName="px-8 lining-tilt-background">
                         <ProDevelopment />
                     </Section>
 
@@ -60,7 +60,7 @@ export default function Home() {
 
             </div>
 
-            <aside className="w-2/6 p-8">
+            <aside className="w-full md:w-2/6 p-8">
                 <div className="sticky top-8 space-y-8">
                     <Section heading="">
                         <p>62, Jalan PJU 7/30,

@@ -29,7 +29,7 @@ export default async function Education() {
             {education.map((item: Education, index: number) => (
                 <AccordionItem key={index} value={`item-${index}`} className="border-b-[0.5px] ">
                     <AccordionTrigger className="pl-8 pr-8 rounded-none hover:no-underline  cursor-pointer">
-                        <div className="grid grid-cols-12 gap-2 w-full">
+                        <div className="grid grid-cols-6 gap-2 w-full md:grid-cols-12">
 
                             <div className="col-span-1">
                                 <div className="flex size-6 shrink-0 items-center justify-center rounded-md bg-muted text-muted-foreground  ">
@@ -37,13 +37,13 @@ export default async function Education() {
                                 </div>
                             </div>
 
-                            <div className="col-span-7">
+                            <div className="col-span-5 md:col-span-7">
                                 <h4 className="font-bold">{item.degree}</h4>
                                 <p className="text-muted">{item.institution} &bull; Full-time</p>
                                 <p className="text-xs text-muted font-light mt-2">{item.location}</p>
                             </div>
 
-                            <div className="col-span-4 text-right">
+                            <div className="col-start-2 col-span-5 md:col-span-4 md:text-right">
                                 <p className="text-xs text-muted pt-1 font-light">{item.period}</p>
                             </div>
 
