@@ -1,0 +1,214 @@
+{
+  "personalInfo": {
+    "name": "Ali Lishan",
+    "credentials": "MSc IT Management, BSc (Hons) Software Engineering",
+    "summary": "Over 50 years of working in the software development industry, especially in web and mobile application development.",
+    "contact": {
+      "address": {
+        "street": "62, Jalan PJU 7/30",
+        "area": "Mutiara Damansara",
+        "city": "Petaling Jaya",
+        "state": "Selangor",
+        "country": "Malaysia",
+        "postalCode": "47800"
+      },
+      "phone": "(601) 266-88597",
+      "email": "alilishan@gmail.com"
+    },
+    "profile": {
+      "nationality": "Maldivian",
+      "passport": "NC33G9743 (Old: NC31G3655)",
+      "dateOfBirth": "17th June, 1983"
+    }
+  },
+  "experience": [
+    {
+      "title": "Chief Software Architect",
+      "company": "Ounch Sdn Bhd",
+      "location": "Malaysia",
+      "period": "October 2021 - Present",
+      "description": "**Main Responsibilities:**\n\n- Developing new and creative innovative approaches that serve as the foundation for the company's next generation of technology\n- Managing and coordinating resources and processes to deliver software releases of company products\n- Contributing to the development of the vision, definition, and strategy for the software engineering team\n- Driving project/program initiatives that deliver on the company's vision"
+    },
+    {
+      "title": "IT Integrated/Process Manager | Senior Software Engineer",
+      "company": "Omniphics Sdn Bhd",
+      "location": "Malaysia",
+      "period": "January 2018 - September 2021 | September 2013 - December 2017",
+      "description": "**Key Activities:**\n\n- Manage and lead software development teams\n- Lead Front-End, JavaScript Developer - Contribute expert analytical advice and guidance during the systems planning and design process\n- Involved in designing, developing, normalizing, and maintaining Relational Databases to cater to better software performance\n- Manage and guide in developing test cases and plans, methods for debugging and diagnosis, software documentation, user training, and technical operations of the company\n- Research and report on new technologies that would help to improve the design and development stages, as well as strategies for easy software implementation and maintenance\n- Providing the best solution to have common interfaces that provided improved performances and establish best practices and institute modern project management methodologies in all works of the company"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Macy Home Furnishings Sdn Bhd",
+      "location": "Malaysia",
+      "period": "June 2011 - August 2013",
+      "description": "**Responsibilities:**\n\n- Plan, coordinate, design and develop IT-related activities to achieve a stable, functional, and cost-effective IT infrastructure that will support and enhance the operations of the company\n- Research, design and develop Management Support Systems to streamline operational IT infrastructure with the business objectives of the company\n- Provided efficient and practical analysis/design/unit testing when any new requirements arise\n- Identifying technology limitations and deficiencies in the system and developing system/software on the requirements to overcome the flaw\n- Designed, developed and tested the software applications in accordance with established standards"
+    },
+    {
+      "title": "Environment Analyst",
+      "company": "Ministry of Housing, Transport and Environment",
+      "location": "Maldives",
+      "period": "July 2007 - May 2012",
+      "description": "**Technical Leadership:**\n\n- Heading the Information and Communication Technology Department of the Ministry\n- Develop and manage the ICT infrastructure of the Ministry, Web Applications, and Management Information Systems\n- Provide guidance and expertise in formulating strategies, action plans, and implementation of projects for the Ministry\n- Provide guidance and expertise in procurement and financial evaluation of new ICT equipment and software applications\n- Undertake system requirement/scoping analysis and prepare communication documents using UML and/or other modeling technologies\n\n**Policy and International Work:**\n\n- \"Analyst\" in the Policy and Planning Division, directly responsible for the Environment Policy of the Country, Climate Change and Sustainable Development Issues, Strategic Environment Assessment and Planning, and liaison between International agencies and organizations\n- Member of the official delegation of the Maldives in the Bonn Climate Change Talks, Bonn, Germany. Tasked with attending and negotiating on behalf of the government on issues of Technology transfer, Mitigation, and Adaptation strategy development\n- Manage Male' Deceleration Project activities in conjunction with the United Nations Environment Programme (UNEP) and the Department of Meteorology of Maldives"
+    },
+    {
+      "title": "Environment Officer",
+      "company": "Ministry of Home Affairs, Housing and Environment",
+      "location": "Maldives",
+      "period": "2000 - 2003",
+      "description": "Environmental policy and administrative work at ministry level."
+    }
+  ],
+  "skills": {
+    "industryKnowledge": [
+      "AI/ML Integration & Prompt Engineering",
+      "Microservices Architecture & Design Patterns",
+      "Cloud-Native Application Development",
+      "DevSecOps & Security Engineering",
+      "Full-Stack Development Leadership",
+      "API Gateway & Service Mesh Design",
+      "Event-Driven Architecture",
+      "Container Orchestration & Kubernetes",
+      "Real-Time Data Processing & Analytics",
+      "Software Quality Engineering & Test Automation",
+      "Technical Team Leadership & Mentoring",
+      "System Design & Scalability Planning",
+      "Performance Optimization & Monitoring",
+      "Digital Transformation Strategy"
+    ],
+    "toolsAndTechnologies": {
+      "programmingLanguages": ["TypeScript", "JavaScript", "Python", "PHP", "Java", "C#"],
+      "aiMlTools": ["OpenAI APIs", "TensorFlow", "PyTorch", "Hugging Face" ],
+      "cloudPlatforms": ["AWS", "Azure", "Google Cloud", "Vercel", "Netlify"],
+      "frameworks": ["Next.js 14+", "React 18+", "Vue 3", "Express.js", "Angular", "FastAPI"],
+      "databases": ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Supabase" ],
+      "containerization": ["Docker", "Kubernetes", "Helm", "Docker Compose" ],
+      "ciCd": ["GitHub Actions", "Jenkins", "GitLab CI/CD", "Terraform" ],
+      "monitoring": ["Prometheus", "Grafana" ],
+      "messagingQueues": ["Apache Kafka", "RabbitMQ", "AWS SQS", "Redis Pub/Sub"],
+      "webTechnologies": ["HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "WebAssembly", "Progressive Web Apps"],
+      "testingTools": ["Jest", "Cypress", "Playwright", "Testing Library", "Postman", "k6"],
+      "versionControl": ["Git", "GitHub", "GitLab", "Bitbucket"],
+      "apiTechnologies": ["GraphQL", "REST", "gRPC", "WebSockets", "Server-Sent Events", "OpenAPI"],
+      "designTools": ["Figma", "Adobe Creative Suite", "Sketch", "Framer", "Principle"],
+      "developmentTools": ["VS Code", "Cursor", "Postman" ],
+      "methodologies": ["Agile/Scrum", "DevOps", "GitOps", "Domain-Driven Design", "Event Sourcing", "CQRS"],
+      "securityTools": ["OWASP", "Snyk", "SonarQube", "Vault", "OAuth 2.0/OIDC", "JWT", "Aqua Security"],
+      "platforms": ["Linux", "macOS", "Windows", "Serverless Functions", "Edge Computing"]
+    }
+  },
+  "education": [
+    {
+      "degree": "MSc Information Technology Management",
+      "institution": "Staffordshire University",
+      "location": "APIIT / UCTI Malaysia",
+      "period": "2009 - 2011",
+      "description": "**Focus Areas:**\n\n- The extended curriculum of Software Engineering focused on the application of computer-related technology as an integral part of an efficient business environment\n- Covers the aspects of managing software development support environments, project management, and strategic systems development planning\n\n**Thesis:** \"Mitigating the Influence of Organisational Culture through Adaptation of Information Technology Project Management Methodologies in the Government of Maldives.\""
+    },
+    {
+      "degree": "BSc (Hons) Software Engineering",
+      "institution": "Nottingham Trent University",
+      "location": "KBU International College Malaysia",
+      "period": "2004 - 2007",
+      "description": "**Skills Acquired:**\n\n- Expert analytical abilities with a good combination of skills required to design and develop robust, efficient, and quality computing and integrated systems\n- In-depth design and programming methods for Distributed Systems, Multimedia Systems, and Project Management\n\n**Thesis:** \"WebML Based Appointment System\" - An application to enhance communication between lecturers and students based on WebML Architecture, enhanced by Mobile Technology (ASP.Net 2.0, Access 2007) 2007."
+    },
+ {
+      "degree": "NCC International Diploma in Computer Studies",
+      "institution": "KBU International College",
+      "location": "Malaysia",
+      "period": "2004 - 2005",
+      "description": "**Ofqual-Accredited Foundation in Computing Excellence:**\n\n- **Programming Fundamentals:** Comprehensive introduction to programming concepts, logical problem-solving, and computational thinking that formed the bedrock of software development expertise\n- **IT Systems & Infrastructure:** Understanding of computer systems, networks, and IT operations that proved essential for later roles in ICT management and system architecture\n- **Business-Technology Integration:** Critical training in how technology supports business objectives, preparing for strategic IT roles and digital transformation leadership\n- **Database Foundations:** Introduction to data management principles and database concepts that evolved into expertise in modern database design and management\n- **Professional IT Skills:** Development of analytical thinking, technical documentation, and professional communication skills essential for technology leadership\n- **Computing Mathematics:** Applied mathematical concepts including logic, statistics, and computational methods fundamental to software engineering\n- **System Development Principles:** Early exposure to structured approaches to system analysis, design, and implementation\n\n*This internationally recognized, Ofqual-accredited diploma provided the comprehensive computing foundation that enabled seamless progression to specialized software engineering and successful transition into leadership roles across diverse technology domains.*"
+    },
+   {
+      "degree": "Diploma in Software Engineering",
+      "institution": "IBS Overseas",
+      "location": "Sri Lanka",
+      "period": "2002 - 2003",
+      "description": "**Specialized Software Engineering Foundation:**\n\n- **Object-Oriented Programming:** Comprehensive training in OOP principles (encapsulation, inheritance, polymorphism) using Java and C++, forming the backbone of modern software development expertise\n- **Software Engineering Principles:** In-depth study of software development lifecycle (SDLC), requirement engineering, system modeling, and quality assurance practices\n- **Database Design & Implementation:** Hands-on experience with database design, SQL programming, and data modeling techniques essential for enterprise applications\n- **Web Development Fundamentals:** Early introduction to web technologies, client-server architecture, and dynamic web application development\n- **Software Testing & Quality Assurance:** Systematic approach to testing methodologies, debugging techniques, and quality metrics that became fundamental to professional practice\n- **Project Management Basics:** Introduction to software project planning, resource allocation, and team coordination principles\n- **System Integration:** Understanding of component-based development, API design, and system interoperability\n- **Technical Documentation:** Professional documentation standards, UML modeling, and technical specification writing\n\n*This specialized diploma bridged theoretical computer science knowledge with practical software engineering skills, establishing the technical foundation for over two decades of successful software development leadership.*"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "International English Language Testing Systems (IELTS)",
+      "year": "2003"
+    },
+    {
+      "name": "Ed Excel London Examinations GCE O - Level",
+      "year": "2000"
+    }
+  ],
+  "professionalDevelopment": [
+    {
+      "course": "Google Analytics Individual Qualification",
+      "provider": "Google",
+      "date": "March 2021"
+    },
+    {
+      "course": "Third Country Training Programme on Climate Change, Energy and Environment",
+      "provider": "Singapore Environment Institute, Singapore",
+      "date": "February 2009"
+    },
+    {
+      "course": "Asia Pacific Network Capacity Building Programme",
+      "provider": "Tokyo, Japan",
+      "date": "August 2000"
+    },
+    {
+      "course": "Geographic Information Systems Training",
+      "provider": "Maldives",
+      "date": "August 2000"
+    },
+    {
+      "course": "PADI Open Water Diver",
+      "provider": "Sea Explorers, Maldives",
+      "date": "December 2000"
+    }
+  ],
+  "skillsDevelopment": [
+    {
+      "course": "Unity for Beginners",
+      "provider": "Udemy",
+      "year": "2021"
+    },
+    {
+      "course": "Advanced Graphic Design and Web Programming",
+      "date": "January 2003"
+    }
+  ],
+  "professionalPosts": [
+    {
+      "position": "Member of Least Developed Countries Expert Group",
+      "period": "2008 - 2009"
+    },
+    {
+      "position": "Maldives focal point for the South-South Cooperation - Disaster Risk Management",
+      "period": "2008 - 2009"
+    },
+    {
+      "position": "Webmaster & ICT Consultant",
+      "organization": "Villa Travels and Tours",
+      "period": "2000 - 2003"
+    },
+    {
+      "position": "Program Coordinator",
+      "organization": "Ecocare Maldives",
+      "period": "2000 - 2003, 2007 - 2010"
+    }
+  ],
+  "references": [
+    {
+      "name": "Mr. Choong Kar Fai",
+      "title": "CEO, Omniphics Sdn Bhd",
+      "location": "Malaysia"
+    },
+    {
+      "name": "Dr. Christine Lee",
+      "title": "Deputy Head of School of Engineering and Computing, First City University College",
+      "location": "Malaysia"
+    },
+    {
+      "name": "Mr. Amjad Abdulla",
+      "title": "Director-General, Ministry of Environment",
+      "location": "Maldives"
+    }
+  ]
+}

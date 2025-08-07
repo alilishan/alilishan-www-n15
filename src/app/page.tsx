@@ -1,103 +1,104 @@
-import Image from "next/image";
+import Container from "@/components/Container";
+import Section from "@/components/section/Section";
+import Experience from "@/components/Experience";
+import Education from "@/components/Education";
+import ProDevelopment from "@/components/ProDevelopment";
+import TechStack from "@/components/TechStack";
+import IndustryKnowledge from "@/components/IndustryKnowledge";
+import Referees from "@/components/Referees";
+import ProPosts from "@/components/ProPosts";
+import SkillsDevelopment from "@/components/SkillsDevelopment";
+
 
 export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    return (
+        <Container>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+            <div className="md:rounded-lg border-[0.5px]  overflow-hidden">
+                <div className="mx-auto w-full max-w-2xl bg-white print:space-y-4">
+
+                    <Section className="flex items-start md:items-center justify-between p-8 pb-0">
+                        <div className="flex-1 space-y-1.5 pr-4">
+                            <h1 className="text-2xl font-bold">Ali Lishan</h1>
+                            <p className="font-bold text-dark">MSc IT Management, BSc (Hons) Software Engineering.</p>
+                            <p className="max-w-md">
+                                Over 20 years in the software development industry, specializing in web and mobile application development. Strong background in software project management, web application development, and IT infrastructure management.
+                            </p>
+                            <p className="max-w-md">
+                                <a href="https://www.google.com/maps/search/Petaling%20Jaya%2C%20Malaysia">Petaling Jaya, Malaysia</a>
+                            </p>
+                        </div>
+                        <div className="relative flex shrink-0 overflow-hidden rounded-full size-20 md:size-28">
+                            <img className="aspect-square h-full w-full" src="https://avatar.iran.liara.run/public/42" alt="Ali Lishan" />
+                        </div>
+                    </Section>
+
+                    <Section heading="About Me" className="px-8 mb-8">
+                        <p>Chief Software Architect with over 20 years in the software development industry, specializing in web and mobile application development. Strong background in software project management, web application development, and IT infrastructure management. Proven track record of leading and managing software development teams, driving innovative solutions, and contributing to the strategic vision of technology companies.</p>
+                    </Section>
+
+                    <Section heading="Industry Knowledge" className="px-8 mb-8">
+                        <div className="">
+                            <IndustryKnowledge />
+                        </div>
+                    </Section>
+
+                    <Section heading="Experience" headingClassName="px-8">
+                        <Experience />
+                    </Section>
+
+                    <Section heading="Education" headingClassName="px-8">
+                        <Education />
+                    </Section>
+
+                    <Section heading="Professional Development" headingClassName="px-8">
+                        <ProDevelopment />
+                    </Section>
+
+                </div>
+
+            </div>
+
+            <aside className="w-2/6 p-8">
+                <div className="sticky top-8 space-y-8">
+                    <Section heading="">
+                        <p>62, Jalan PJU 7/30,
+                        <br/>Mutiara Damansara,
+                        <br/>Petaling Jaya, 47800
+                        <br/>Selangor. Malaysia.
+                        <br/><span className="font-bold">(601) 266-88597</span>
+                        <br/><span className="font-bold">alilishan@gmail.com</span>
+                        </p>
+
+                    </Section>
+{/*
+                    <Section heading="Profile">
+                        <></>
+                    </Section> */}
+
+
+
+                    <Section heading="Tools & Technologies">
+                        <div className="flex flex-wrap gap-2">
+                            <TechStack />
+                        </div>
+                    </Section>
+
+                    <Section heading="Skills Development">
+                        <SkillsDevelopment />
+                    </Section>
+
+                    <Section heading="Professional Posts">
+                        <ProPosts />
+                    </Section>
+
+                    <Section heading="Referees & References">
+                        <Referees />
+                    </Section>
+
+                </div>
+            </aside>
+
+        </Container>
+    );
 }
