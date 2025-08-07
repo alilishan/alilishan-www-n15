@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ali Lishan Portfolio (Next.js 15)
 
-## Getting Started
+A modern, responsive portfolio and resume web app built with Next.js 15, React 19, and Tailwind CSS. Showcases professional experience, education, skills, and more, with a clean UI and interactive components.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework:** [Next.js 15](https://nextjs.org/)
+- **Language:** TypeScript, React 19
+- **Styling:** Tailwind CSS 4, Custom CSS Variables, [tw-animate-css](https://www.npmjs.com/package/tw-animate-css)
+- **UI Components:** [Radix UI Accordion](https://www.radix-ui.com/primitives/docs/components/accordion), [Lucide Icons](https://lucide.dev/), shadcn/ui patterns
+- **Markdown Rendering:** [markdown-to-jsx](https://github.com/probablyup/markdown-to-jsx)
+- **Animation:** [framer-motion](https://www.framer.com/motion/)
+- **Linting:** ESLint (Next.js, TypeScript)
+
+## 📁 Folder Structure
+
+```
+alilishan-next-15/
+├── src/
+│   ├── app/           # Next.js app directory (pages, layout, global styles)
+│   ├── components/    # UI and feature components (Accordion, Education, Experience, etc.)
+│   ├── data/          # Resume data and data utilities
+│   ├── libs/          # Utility functions
+│   └── ...
+├── public/            # Static assets (SVGs, images)
+├── package.json       # Project dependencies and scripts
+├── postcss.config.mjs # PostCSS config (Tailwind plugin)
+├── eslint.config.mjs  # ESLint config
+├── tsconfig.json      # TypeScript config
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Modern Resume Layout:** Clean, print-friendly, and responsive design.
+- **Accordion Sections:** Interactive, collapsible sections for Education, Experience, etc.
+- **Markdown Support:** Rich text descriptions using markdown.
+- **Animated Descriptions:** Rotating professional descriptors with smooth animations.
+- **Customizable Theme:** Uses CSS variables and Tailwind for easy theming.
+- **TypeScript Strictness:** Ensures type safety and maintainability.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚡ Getting Started
 
-## Learn More
+1. **Install dependencies:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm install
+   # or
+yarn
+   # or
+pnpm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Run the development server:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   # or
+yarn dev
+   # or
+pnpm dev
+   # or
+bun dev
+   ```
 
-## Deploy on Vercel
+   Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Edit Content:**
+   - Update your resume data in `src/data/resume_json.json`.
+   - Modify components in `src/components/` as needed.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧩 Scripts
+
+- `dev`   – Start development server (with Turbopack)
+- `build` – Build for production
+- `start` – Start production server
+- `lint`  – Run ESLint
+
+## 🌐 Deployment
+
+Deploy easily on [Vercel](https://vercel.com/) or any platform supporting Next.js 15.
+
+## 📚 Learn More
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Radix UI](https://www.radix-ui.com/)
+
+---
+
+© Ali Lishan. MSc IT Management, BSc (Hons) Software Engineering.
