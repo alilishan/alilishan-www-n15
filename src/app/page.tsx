@@ -10,14 +10,14 @@ import Referees from "@/components/Referees";
 import ProPosts from "@/components/ProPosts";
 import SkillsDevelopment from "@/components/SkillsDevelopment";
 import DescriptionRotator from "@/components/DescriptionRotator";
-
+import { MapPinIcon } from "lucide-react";
 
 export default function Home() {
     return (
         <Container>
 
-            <div className="md:rounded-lg border-[0.5px]  overflow-hidden">
-                <div className="mx-auto w-full max-w-2xl bg-white print:space-y-4">
+            <div className="md:rounded-lg border-[0.5px] overflow-hidden">
+                <div className="mx-auto w-full max-w-2xl print:space-y-4">
 
                     <Section className="flex items-start md:items-center justify-between p-8 pb-0">
                         <div className="flex-1 space-y-1.5 pr-4">
@@ -26,9 +26,14 @@ export default function Home() {
 
                            <DescriptionRotator texts={professionalDescriptors} />
 
-                            {/* <p className="max-w-md">
-                                <a href="https://www.google.com/maps/search/Petaling%20Jaya%2C%20Malaysia">Petaling Jaya, Malaysia</a>
-                            </p> */}
+                            <p className="max-w-md">
+                                <a href="https://www.google.com/maps/search/Petaling%20Jaya%2C%20Malaysia" className="flex items-center gap-2">
+                                    <MapPinIcon className="w-4 h-4" />
+                                    <span>Petaling Jaya, Malaysia</span>
+                                    <span className="">🇲🇾</span>
+                                    <span className="">🇲🇻</span>
+                                </a>
+                            </p>
                         </div>
                         <div className="relative flex shrink-0 overflow-hidden rounded-full size-20 md:size-32 border-[0.5px] p-1">
                             <Image
@@ -67,7 +72,7 @@ export default function Home() {
 
             </div>
 
-            <aside className="w-full md:w-2/6 p-8">
+            <aside className="w-full md:w-2/6 p-8 lining-tilt-background rounded-r-lg">
                 <div className="sticky top-8 space-y-8">
                     <Section heading="">
                         <p>62, Jalan PJU 7/30,
@@ -79,12 +84,6 @@ export default function Home() {
                         </p>
 
                     </Section>
-{/*
-                    <Section heading="Profile">
-                        <></>
-                    </Section> */}
-
-
 
                     <Section heading="Tools & Technologies">
                         <div className="flex flex-wrap gap-2">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import HeroBg from "@/components/HeroBg";
 
 const font = JetBrains_Mono({
     subsets: ["latin"],
@@ -22,11 +23,12 @@ export default function RootLayout({
             <body
                 className={`${font.variable} antialiased`}
             >
+                <HeroBg />
                 {children}
 
                 <footer className="p-8 lining-tilt-background">
                     <p className="text-muted text-xs">
-                        <span className="block">Some of the styles are inspired by tailwindcss.com</span>
+                        <span className="block">Some of the awesome you see here are inspired by tailwindcss & react bits & pieces of code from the internet</span>
                         <span className="font-bold">Built by Ali Lishan &bull; Copyright &copy; {new Date().getFullYear()}</span>
                     </p>
                 </footer>
