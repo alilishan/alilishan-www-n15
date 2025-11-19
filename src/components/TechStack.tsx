@@ -36,7 +36,7 @@ export default async function TechStack() {
     }
 
     return (
-        <Accordion type="single" collapsible defaultValue="item-1" className="">
+        <Accordion type="single" collapsible defaultValue="item-1" className="w-full">
 
             {Object.keys(skills.toolsAndTechnologies).map((key: string, index: number) => (
                 <AccordionItem key={index} value={`item-${index + 1}`} className="">

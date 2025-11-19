@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 import "./globals.css";
 import HeroBg from "@/components/HeroBg";
 
@@ -33,6 +35,7 @@ export default function RootLayout({
                     </p>
                 </footer>
             </body>
+            <GoogleAnalytics gaId={process.env.GOOGLE_ANALYTICS_TAG || ''} />
         </html>
     );
 }
